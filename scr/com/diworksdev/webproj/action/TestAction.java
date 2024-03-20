@@ -1,9 +1,7 @@
 package com.diworksdev.webproj.action;
-
 import com.opensymphony.xwork2.ActionSupport;
 
-public class LoginAction extends ActionSupport {
-
+public class TestAction extends ActionSupport {
 	private String username;
 	private String password;
 	
@@ -24,6 +22,7 @@ public class LoginAction extends ActionSupport {
 	}
 	
 	public void setPassword(String password) {
-		this.password = password;
+		this.password = password;		
 	}
+
 }
